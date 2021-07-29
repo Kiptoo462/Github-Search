@@ -1,0 +1,43 @@
+/* Body Styling */
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  background: #FFf;
+  margin: 0;
+  padding: 0;
+}
+body a{
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+}
+
+
+/* Navbar Styling */
+nav.opaque-navbar{
+  background-color: #fff;
+  border-bottom: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+  transition: background-color .5s ease 0s;
+  height: 60px;
+}
+.inline{
+  display: inline;
+}
+
+
+/* Responsive Styling */
+@media only screen and (max-width: 992px) {
+  li.nav-item.user{
+      position: absolute;
+      right: 120px;
+  }
+  li.nav-item.repo{
+      position: absolute;
+      right: 20px;
+      margin-bottom: 10px;
+  }
+
+}
