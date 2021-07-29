@@ -1,27 +1,45 @@
-# GithubSearcher
+# Github-Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+####  This is an angular application to search users' github details and  repositories.  July 25,2021
+#### By **Kiptoo Victor**
 
-## Development server
+## Description
+This an angular application  where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.The purpose of this project is to help me consolidate and understand this weeks' concepts on Angular. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
+### Requirements
+* Text editor
+* Browser(google chrome)
+* Github
+* Git
 
-## Code scaffolding
+  
+### Setup
+1. Clone the repo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh 
+https://github.com/Kiptoo462/Github-Search.git
+  ```
+2. `cd` to GithubSearch folder.
 
-## Build
+3. Run ng serve --open on the terminal.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Live link
+   [Github-Search](https://kiptoo462.github.io/Github-Search/)
 
-## Running unit tests
+## BDD
+  The user should;
+  + Click search user and the users' details are displayed.
+  + Click search repos and the users' repos are displayed.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
+  *  Angular-CLI
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Support and contact details
+ + victor.kiptoo@student.moringaschool.com
+ 
+ 
+### License
+*This license is under[MIT LICENSE]()*
+Copyright (c) 2021 **Kiptoo Victor** 
+ 
