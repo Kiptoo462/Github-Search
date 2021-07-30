@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   apiUrl: "https://api.github.com/",
-  accessToken:'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'
+  accessToken:'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'
 };
 
 /*
