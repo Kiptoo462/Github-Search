@@ -16,7 +16,7 @@
           <input class="form-control mr-sm-2" type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()">
           <button class="btn btn-outline-info my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i>Search</button>
         </form>
-        <p class="searchtext">Enter Username to search for github profile</p>
+        <p class="searchtext">Enter github username</p>
       </div>
     </div>
     <!-- End of search section -->
@@ -58,7 +58,7 @@
           <div class="card-body">
             <div class="row">
               <div class="col-md-3 col-sm-12">
-                <img src="{{users.avatar_url}}" alt="avatar image" class="rounded-circle img-responsive">
+                <img src="{{users.avatar_url}}" class="rounded-circle img-responsive">
               </div>
 
 
